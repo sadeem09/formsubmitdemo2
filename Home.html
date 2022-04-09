@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="shortcut icon" type="img/jpg" href="123.jpg">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Lato", sans-serif;
+            background-color: #fff5f0;
+        }
+
+        #homeLogo {
+            width: 10%;
+
+        }
+
+        body,
+        html {
+            height: 100%;
+            color: #8B5D18;
+            line-height: 1.8;
+        }
+
+
+
+
+
+        /* Create a Parallax Effect */
+        .bgimg-1,
+        .bgimg-2,
+        .bgimg-3 {
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        #imageHeading {
+            text-align: right;
+
+        }
+
+        .bgimg-1 {
+
+            min-height: 100%;
+        }
+
+        .navbar {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            text-align: left;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar a {
+            display: block;
+            padding: 0 20px;
+            line-height: 50px;
+            text-decoration: none;
+            font-size: 15px;
+            font-family: Courier;
+            font-weight: bold;
+            color: #a98550;
+            transition-duration: .3s
+        }
+
+        .navbar a:hover {
+            background-color: #dec6b7;
+
+        }
+
+        #headingFamily {
+
+            float: left;
+            margin-left: 66%;
+
+        }
+
+        #headingHomee,
+        .btn {
+
+            float: left;
+            margin-left: 40%;
+
+
+        }
+
+
+        .button {
+        
+    background-color: #cf8e72;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 0.81rem 1.87rem;
+    transition: 0.4s;
+    text-decoration: none;
+    color: #ffffff;
+        }
+        .button:hover a:after {
+    background-color: transparent;
+    border: 2px solid  #cf8e72;
+  }
+        #paraghgHomee {
+            float: left;
+            margin-left: 40%;
+            margin-top: 5%;
+        }
+        
+
+        .images {
+            width: 20%;
+            height: 12%;
+        }
+
+        #imgDiv {
+            margin-left: 15%;
+            margin-bottom: 6%;
+
+        }
+
+        .bgimg-2 {
+            background-image: url("shape.png");
+            min-height: 400px;
+        }
+
+        /* Second image (things we caer about) */
+        .bgimg-1 {
+            background-image: url("IMG_8181.jpg");
+            min-height: 400px;
+            height: 55%;
+        }
+
+        .animate-top {
+            position: relative;
+            animation: animatetop 0.4s
+        }
+
+        @keyframes animatetop {
+            from {
+                top: -300px;
+                opacity: 0
+            }
+
+            to {
+                top: 0;
+                opacity: 1
+            }
+        }
+
+        .logolo {
+            margin-right: 19%;
+
+        }
+
+        .w3-wide {
+            letter-spacing: 10px;
+        }
+
+        .w3-hover-opacity {
+            cursor: pointer;
+        }
+
+        #img {
+            background-image: url("my.png");
+            margin-top: 0.1%;
+            background-repeat: no-repeat;
+            width: 200%;
+            background-color: #ffffff;
+
+        }
+
+        /* Turn off parallax scrolling for tablets and phones */
+        @media only screen and (max-device-width: 1600px) {
+
+
+            .bgimg-2,
+            .bgimg-3 {
+                background-attachment: scroll;
+                min-height: 400px;
+            }
+        }
+
+        .w3-top {
+            background-color: white;
+
+
+
+        }
+
+        .w3-xlarge {
+            color: #8B5D18;
+        }
+
+        .nav a {
+            text-decoration: none;
+
+
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="Home.html"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="About us.html"><i class="fa fa-users"></i> About us</a></li>
+            <li><a href="employTrain.html"> <i class="fa fa-address-card"></i> Join us</a></li>
+            <li><a href="reemTest.html"><i class="fa fa-file-text"></i> Child Registeraion</a></li>
+        </ul>
+    </nav>
+    <nav>
+
+
+        <!-- First Parallax Image with Logo Text -->
+        <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+            <div class="w3-display-middle" style="white-space:nowrap;">
+                <h3 id="headingHomee" class="animate-top"> Happy child</h3>
+                <h3 id="headingFamily" class="animate-top"> Happy Family</h3>
+                <p id="paraghgHomee"> It's both a nursery and a kindergarten. We care about your child very much.</br>Be
+                    assured, your child is in good hands.To register, click below. </br></br></p>
+                
+                <div class="btn">
+                    <a class="button" href="reemTest.html" role="button"><span>Register your child now!</span></a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+        <div class="w3-row w3-center w3-white">
+            <div class="w3-quarter w3-section w3-text-#8B5D18 ">
+                <span class="w3-xlarge"> 300+</span><br>
+                Happy Child
+            </div>
+            <div class="w3-quarter w3-section w3-text-#8B5D18" class="padding">
+                <span class="w3-xlarge"> 150+</span><br>
+                Satisfied Parents
+            </div>
+            <div class="w3-quarter w3-section w3-text-#8B5D18" class="padding">
+                <span class="w3-xlarge"> 89+</span><br>
+                Employee
+            </div>
+
+        </div>
+
+
+        <!-- Second Parallax Image with Portfolio Text -->
+        <!-- Second Parallax Image with Portfolio Text -->
+        <div class="bgimg-2 w3-display-container w3-opacity-min">
+            <div class="w3-display-middle">
+                <span class="w3-xlarge w3-text-#8B5D18 w3-wide">Some images of our nursery...</span>
+            </div>
+        </div></b>
+
+
+
+
+
+        <!--images -->
+
+        <div id="imgDiv">
+            <div>
+                <img src="p2.jpg" class="images" onclick="onClick(this)" class="w3-hover-opacity">
+
+
+                <img src="p6.jpg" class="images" onclick="onClick(this)" class="w3-hover-opacity">
+
+
+
+                <img src="p4.jpg" class="images" onclick="onClick(this)" class="w3-hover-opacity">
+
+
+
+                <img src="p-baic.jpg" class="images" onclick="onClick(this)" class="w3-hover-opacity">
+
+
+            </div></br>
+
+            <div>
+                <img src="p3.jpg" class="images" onclick="onClick(this)" class="w3-hover-opacity">
+
+
+                <img src="p8.jpg" class="images" onclick="onClick(this)" class="w3-hover-opacity">
+
+
+
+                <img src="p1.jpg" class="images" onclick="onClick(this)" class="w3-hover-opacity">
+
+
+
+                <img src="p7.jpg" class="images" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+        </div>
+
+        <!-- Modal for full size images on click-->
+        <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+            <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+                    class="fa fa-remove"></i></span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption" class="w3-opacity w3-large"></p>
+            </div>
+        </div>
+
+
+
+        <!-- Container (Contact Section) -->
+        <div class="w3-content w3-container w3-padding-64" id="contact">
+
+            <h1 class="w3-center"><em> CONTACT US !</em></h1>
+
+            <div class="w3-row w3-padding-32 w3-section">
+                <div class="w3-col m4 w3-container">
+                    <img src="https://www.w3schools.com/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
+                </div>
+                <div class="w3-col m8 w3-panel">
+                    <div class="w3-large w3-margin-bottom">
+                        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Compartment
+                        A3 <br>
+                        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone:
+                        0541934622 <br>
+                        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
+                        Ashbeelya@gmail.com<br>
+                    </div>
+
+                    <p> SEND US AN EMAIL :</p>
+                            <form action="https://formsubmit.co/sadeemalabdullh@gmail.com" method="POST"> 
+                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+						
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="text" placeholder="Name" required name="name"
+                                    id="name">
+                            </div>
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="email" placeholder="Email" required name="email"
+                                    id="email">
+                            </div>
+                        </div>
+                        <input class="w3-input w3-border" type="text" placeholder="message" required name="message"
+                            id="message">
+
+                        <button class="w3-button w3-white w3-right w3-section w3-text-#8B5D18" type="submit">
+                            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-center w3-white w3-padding-64 w3-opacity w3-hover-opacity-off">
+            <a href="Home.html" class="w3-button "><i class="fa fa-arrow-up w3-margin-right w3-text-#8B5D18"></i>To the
+                top</a>
+            <div class="w3-xlarge w3-section w3-text-#8B5D18">
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-email w3-hover-opacity"></i>
+                <i class="fa fa-phone w3-hover-opacity"></i>
+
+                <!-- Footer end. -->
+        </footer>
+        <script src="https://smtpjs.com/v3/smtp.js"> </script>
+        <script>
+
+
+            // Modal Image Gallery
+            function onClick(element) {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+                var captionText = document.getElementById("caption");
+                captionText.innerHTML = element.alt;
+            }
+
+            // Change style of navbar on scroll
+            window.onscroll = function () { myFunction() };
+            function myFunction() {
+                var navbar = document.getElementById("myNavbar");
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+                } else {
+                    navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+                }
+            }
+
+            // Used to toggle the menu on small screens when clicking on the menu button
+            function toggleFunction() {
+                var x = document.getElementById("navDemo");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+        </script>
+
+</body>
+
+</html>
